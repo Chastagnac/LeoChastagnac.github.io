@@ -10,4 +10,10 @@ Création d'un portfolio en ligne à l'aide de différrentes technoligies :
 * [BootStrap] - FrameWork utilisé pour ce projet 
 * [Git] - Logiciel de version de gestion de version
 
-Cela me permettra de présenter mon parcours à travers ce CV en ligne mais églament de parler de mes compétences et des stages que j'ai pu éffectué 
+
+
+
+| Epreuve | Utilité |
+| ------ | ------ |
+| E6 |  | Présenter mon parcours mais également de mes compétences et stages que j'aurais pu éffectués.
+| E4 | Héberger le code source de mes PPE et leur contexte |
