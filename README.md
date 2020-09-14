@@ -1,6 +1,6 @@
 # Portfolio de Léo Chastagnac, étudiant en BTS SIO option SLAM !
 
-###Objectifs : 
+### Objectifs : 
 
 Création d'un portfolio en ligne à l'aide de différrentes technoligies : 
 
