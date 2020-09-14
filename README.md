@@ -5,7 +5,6 @@
 Création d'un portfolio en ligne à l'aide de différrentes technoligies : 
 
 
-
 * [NetBeans] - IDE uttilisé
 * [HTML] - Langage utilisé
 * [CSS] - Langage de style pour mettre en forme l'HTML
