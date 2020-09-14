@@ -15,5 +15,5 @@ Création d'un portfolio en ligne à l'aide de différrentes technoligies :
 
 | Epreuve | Utilité |
 | ------ | ------ |
-| E6 |  | Présenter mon parcours mais également de mes compétences et stages que j'aurais pu éffectués.
+| E6 |  | Présenter mon parcours mais également de mes compétences et stages que j'aurais pu éffectués |
 | E4 | Héberger le code source de mes PPE et leur contexte |
