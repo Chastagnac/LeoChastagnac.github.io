@@ -1,17 +1,20 @@
-<!doctype html>
-<html lang="fr">
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
     <head>
-        <!-- Required meta tags -->
+        <title>Portfolio de Léo Chastagnac (BTS SIO 2020)</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Portfolio de Léo Chastagnac - BTS SIO SLAM">
         <meta name="author" content="Léo Chastagnac">
         <link rel="icon" href="favicon.ico">
-        <link href="css/Style.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/Cv.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <title>Portfolio de Léo Chastagnac (BTS SIO 2020)</title>
-
     </head>
     <body>
         <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
@@ -20,11 +23,11 @@
                         data-target="#navbar" aria-controls="navbar">
                     <span class="sr-only">Navigation raccourcie</span>☰
                 </button>
-                <a class="navbar-brand" href="#">Mon portfolio</a>  
+                <a class="navbar-brand" href="../index.html">Mon portfolio</a>  
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav"> 
                         <li class="active nav-item">
-                            <a href="index.html" class="nav-link">
+                            <a href="../index.html" class="nav-link">
                                 <span class="fa fa-home"></span> Accueil
                             </a>
                         </li> 
@@ -111,70 +114,72 @@
                 </div>
             </div>
         </nav> 
+        <div class="jumbotron">       
+            <div class="container">       
+                <div class="row cadreCV">        
+                    <div id="cv-entete" class="text-center">            
+                        <div id="cv-photo">            
+                            <img src="../images/AmeliaPilou.jpg" alt="Ma photo d'identité">      
+                        </div>        
+                        <div id="cv-intro">         
+                            <h1>Bonjour, je m'appelle Amélia et voici mon CV</h1>
+                        </div>                                 
+                    </div>      
+                </div>     
+            </div>   
+        </div>
+        <div class="row cadreCV">         
+            <div class="col-xs-12 col-sm-7">    
+                <!-- Partie gauche -->    
+                <div class="rubrique clearfix">          
+                    <h2><span class="fa fa-briefcase"></span>Expériences professionnelles</h2>  
+                    <div class="experience clearfix">         
+                        <div class="col-3">             
+                            <div class="lieu">Dev'in Love</div>         
+                            <div class="date">2020 (7 sem.)</div>       
+                        </div>               
+                        <div class="col-9">            
+                            <div class="profession">Developpement PHP Symfony 4</div>     
+                            <div class="details">Création/mise en œuvre de bundles, création de services,  
+                                création de commandes, respect de l'architecture MVC, création de templates                    
+                                avec Twig, gestion de la persistance avec Doctrine.          
+                            </div>     
+                        </div>            
+                    </div>            
+                    <div class="experience clearfix">         
+                        <div class="col-3">                
+                            <div class="lieu">SCA Info</div>             
+                            <div class="date">2019 (6 sem.)</div>          
+                        </div>                 
+                        <div class="col-9">        
+                            <div class="profession">Développement JEE</div>        
+                            <div class="details">Création/mise en œuvre d'EJB (Entreprise Java Beans),        
+                                persistance des données avec JPA, mise en oeuvre du framework MVC JSF          
+                                (JavaServer Faces), création de composants graphique avec RichFaces.          
+                            </div>         
+                        </div>          
+                    </div>    
+                    <div class="experience clearfix">       
+                        <div class="col-3">            
+                            <div class="lieu">SCA Info</div>     
+                            <div class="date">2018<br>(à distance)</div> 
+                        </div>            
+                        <div class="col-9">         
+                            <div class="profession">Intégration avec Boostrap</div>             
+                            <div class="details">Création d'un site vitrine pour présenter l'entreprise et          
+                                ses différents projets. Problématique de RWD (Responsive Web Design),             
+                                optimisation des contenus, tests multisupports.           
+                            </div>           
+                        </div>       
+                    </div>       
+                </div>   
+            </div>       
 
-        <main role="main" class="container">
-            <div class="jumbotron">
-                <h1>De la Recherche, au Développement.</h1>
-                <img class="pdpPortfolio" src="images/LeoImg.png" alt=""/>
-                <p class="lead">Je m'appelle Léo Chastagnac, j'ai 19ans et ce site a pour vocation de me présenter en tant que personne, en tant qu'étudiante et candidate à l'obtention du BTS SIO et en tant que future professionel de l'informatique.</p>
-                <a class="btn btn-lg btn-primary" href="/docs/4.5/components/navbar/" role="button"> En savoir plus &raquo;</a>
-            </div>
-        </main>
+            <div class="col-xs-12 col-sm-5">      
 
-
-        <footer>
-            <div class="container">
-                <div class="row">                    
-                    <div class="col-lg-4">
-                        <h2>Le BTS SIO</h2>
-                        <p>Passionnée d'informatique depuis mon plus jeune âge, j'aime apprendre à faire
-                            de nouvelles choses avec mon ordinateur, mon smartphone ou ma tablette. Une
-                            Geek ? Oui assurément ! Mais j'aimerais maintenant passer au niveau au-dessus
-                            et devenir une vraie Nerd, dans le bon sens du terme ! Après mon bac, le BTS
-                            SIO s'est présenté comme une évidence. Avec 62% d'Informatique "pure", 15%
-                            d'Économie, management et droit de l'informatique, 8% d'Anglais, 8% de culture
-                            générale et 7% de Maths, je savais que cette formation allait me mettre le
-                            pied à l'étrier pour poursuivre ensuite dans cette voie et devenir
-                            informaticienne !
-                        </p>
-                        <p><a class="btn btn-secondary" href="https://fr.wikipedia.org/wiki/Brevet_de_tec
-                              hnicien_supérieur_-_Services_informatiques_aux_organisations"
-                              target="_blank" role="button">En savoir plus »</a>
-                        </p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h2>Option B SLAM</h2>
-                        <p>En fin de premier semestre, on doit choisir notre option. "Solutions
-                            Logicielles et Applications Métiers" est l'option qui m'a séduit&nbsp;!
-                            Travailler en équipe à la satisfaction de besoins d'un client, définir des
-                            spécifications, faire des tests, corriger des bugs, faire de la maintenance...
-                            tout en apprenant les bases du métier de développeuse : modélisation des
-                            données avec Merise et UML, programmation objet avec Java, C# et PHP,
-                            conception de bases de données sous PostgreSQL et MySQL, réalisation de
-                            composants logiciels avec Symfony, gestion de projet, méthodes agiles...
-                            J'étais sûre que ça serait fait pour moi !
-                        </p>
-                        <p><a class="btn btn-secondary" href="http://www.onisep.fr/Ressources/Univers-For
-                              mation/Formations/Post-bac/BTS-Services-informatiques-aux-organisations-opt
-                              ion-B-solutions-logicielles-et-applications-metiers" target="_blank"
-                              role="button">En savoir plus »</a>
-                        </p>
-                    </div>
-                </div>
-                <hr>
-                <p class="text-center" id="copyright">© Léo Chastagnac 2020</p>
-            </div>
-        </footer> 
-
-
-
-
-
-
-
-
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    </body>
+                <!-- Partie droite -->     
+            </div>    
+        </div>
 </html>
+
+
