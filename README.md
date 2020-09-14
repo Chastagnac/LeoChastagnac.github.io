@@ -4,7 +4,7 @@
 
 Création d'un portfolio en ligne à l'aide de différrentes technoligies : 
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
 
 * [NetBeans] - IDE uttilisé
 * [HTML] - Langage utilisé
