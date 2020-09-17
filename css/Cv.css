@@ -3,7 +3,7 @@ body { padding-top: 50px; }
 /****************************************
 * En-tête du CV
 ****************************************/
-#cv-entete { margin-top: -45px; width: 100%;}
+#cv-entete { margin-top: 20px; width: 100%;}
 #cv-photo { width: 172px; height: 172px; border-radius: 50%; overflow: hidden; padding: 5px;
  background: #eee; display: inline-block; }
 #cv-photo img { width: 160px; height: 160px; border-radius: 50%; }
